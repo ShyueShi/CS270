@@ -1,0 +1,17 @@
+shell$ cat hello.c
+/*
+ * [YOUR NAME]
+ * [DATE]
+ * [DESCRIPTION]
+ */
+
+#include <stdio.h>
+
+int main(int argc, char ** argv) {
+    printf("Hello, World!\n");
+    return 0;
+}
+shell$ gcc -o hello hello.c shell$ ls
+hello hello.c
+shell$ ./ hello
+Hello, World!
